@@ -8,9 +8,43 @@
     <title>Price Panel</title>
 </head>
 <body>
-    <div class="wrapper">
+
+    <header id="header">
+        <img src="https://img.freepik.com/free-vector/flat-creativity-concept-illustration_52683-64279.jpg?size=338&ext=jpg" id="header-img" alt="image of logo">
+        <nav id="nav-bar">
+            <ul>
+                <li ><a class="nav-link" href="#features">Features</a></li>
+                <li ><a class="nav-link" href="#desc-video">How it Works</a></li>
+                <li ><a class="nav-link" href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="myForm">
+        <h2>How can we help you get your creativity flowing?</h2>
+        <form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
+            <input for="email" name="email" type="email" id="email" placeholder="Enter email adress">
+            <input type="submit" id="submit" value="Get more info"></input>
+        </form>
+    </section>
+
+    <h1>Lectures</h1>
+    <section id="features">
+        
+        <ul>
+            <li><b>We help you with new ideas</b>
+                Our team is a well known source for sparking the light in people who want to get their ideas flowing again</li>
+            <li><b>Creative support</b>
+                We make shure you are inspired and have creative resources to work with. Our team is always here to help and get you in the right direction.</li>
+            <li> <b>Quality Assurance</b>
+                For every purchase you make, we will ensure that the process has a boost of 100%, our goal is to satisfy your needs.</li>
+        </ul>
+    </section>
+    <section id="desc-video">
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/pfg9a9diN40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+    <section class="wrapper" id="pricing">
         <div class="content">
-            <img src="./img/ideas.jpg" alt="" class="panel-img">
+            <img src="https://p.kindpng.com/picc/s/176-1768745_important-clipart-business-idea-business-idea-png-transparent.png" alt="" class="panel-img">
             <h2 class="panel-header">Ideas</h2>
             <ul class="panel-feat">
                 <li class="panel-feat-item">Good Ideas</li>
@@ -20,7 +54,7 @@
             <a href="" class="btn is-feat">Try out for free</a>
     </div>
         <div class="content">
-            <img src="./img/create.jpg" alt="" class="panel-img">
+            <img src="https://thumbs.dreamstime.com/z/creativity-26762689.jpg" alt="" class="panel-img">
             <h2 class="panel-header">Create</h2>
             <ul class="panel-feat">
                 <li class="panel-feat-item">Creativity boost</li>
@@ -30,16 +64,16 @@
             <a href="" class="btn is-feat">Try out for free</a>
     </div>
         <div class="content">
-            <img src="./img/work.gif" alt="" class="panel-img">
+            <img src="https://www.cairowestmag.com/wp-content/uploads/2021/02/how-to-be-productive@2x.png" alt="" class="panel-img">
             <h2 class="panel-header">Production</h2>
             <ul class="panel-feat">
                 <li class="panel-feat-item">Work productively</li>
-                <li class="panel-feat-item">How become more productive</li>
+                <li class="panel-feat-item">How become to more productive</li>
             </ul>
             <span class="prices">500$</span>
             <a href="" class="btn is-feat">Try out for free</a>
         </div>
-    </div>
-    
+    </section>
+    <footer>Freecodecamp responsive webdesign project</footer>
 </body>
 </html>
